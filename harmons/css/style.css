@@ -1,0 +1,119 @@
+@import url("../carpress/style.css");
+/*
+Theme Name: harmons
+Description: This is a child theme of carpress for Harmons
+Author: Reach Marketing
+Author URI: http: //www.reachmaine.com.com/
+Template: carpress
+Version: 1.11.0
+*/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* =Theme customization starts here */
+.lined.lined-short {
+  margin-bottom: 0px; }
+
+header .navbar-inverse .brand {
+  padding-bottom: 0px; }
+header .navbar .brand.retina > img {
+  height: 110px;
+  margin-top: -11px;
+  margin-bottom: -20px;
+  background-color: #ad2424;
+  border-radius: 8px;
+  padding-right: 4px;
+  padding-left: 1px;
+  padding-top: 5px; }
+header .navbar.attached .brand.retina > img {
+  margin-top: -5px; }
+header .navbar > .container {
+  border: 1px solid #dadada; }
+
+.social-icons a {
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: #3b579d; }
+  .social-icons a i.fa-facebook {
+    color: white;
+    font-size: 20px; }
+
+.jumbotron .carousel-indicators {
+  display: none; }
+.jumbotron .opening-time {
+  border: 1px solid #dadada; }
+
+.harmons-button-list {
+  margin-left: 0px; }
+  .harmons-button-list li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px; }
+
+/* contact form 7 */
+span.wpcf7-list-item {
+  display: table-row; }
+
+span.wpcf7-list-item * {
+  display: table-cell; }
+
+.foot {
+  background: url(../carpress/assets/images/pattern-5.png); }
+
+.carousel .quote .author .person {
+  line-height: 30px; }
+
+/* archived services (taxonomy-service_category) */
+.service-wrap {
+  padding-bottom: 26px; }
+  .service-wrap .service-title-wrap {
+    height: 65px; }
+    .service-wrap .service-title-wrap .service-icon {
+      float: left;
+      padding-right: 10px;
+      padding-bottom: 5px; }
+  .service-wrap .service-excerpt-wrap {
+    min-height: 10px; }
+
+.left.sidebar .harmons-AAA-widget-logo {
+  margin-bottom: 0px;
+  margin-top: -60px; }
+  .left.sidebar .harmons-AAA-widget-logo .textwidget img {
+    margin-bottom: 0px; }
+.left.sidebar .widget_home_testimonials blockquote {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; }
+  .left.sidebar .widget_home_testimonials blockquote p {
+    font-size: 16px; }
+
+iframe {
+  border: 0px; }
+
+/* ----  Media Settings --------------------------------- */
+@media (max-width: 979px) {
+  header .navbar .brand.retina {
+    padding-top: 2px;
+    padding-bottom: 2px; }
+  header .navbar .brand.retina > img {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  header .nav-collapse #menu-harmons-main-menu {
+    background-color: #ad2424;
+    padding-left: 10px; }
+    header .nav-collapse #menu-harmons-main-menu li:hover,
+    header .nav-collapse #menu-harmons-main-menu .li.dropdown:hover > .dropdown-toggle,
+    header .nav-collapse #menu-harmons-main-menu li > a:hover {
+      color: #FFFFFF; } }
+@media (max-width: 776px) {
+  .hide-mobile {
+    display: none;
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    margin: 0px; } }
+@media (min-width: 481px) {
+  .jumbotron .bottom-widgets .widget {
+    width: 25%; } }
+/* end Media Settings ------------------------------------------ */

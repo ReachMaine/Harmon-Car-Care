@@ -1,0 +1,123 @@
+/*
+Theme Name: harmons
+Description: This is a child theme of carpress for Harmons
+Author: Reach Marketing
+Author URI: http: //www.reachmaine.com.com/
+Template: carpress
+Version: 1.11.0
+*/
+ 
+@import url("../carpress/style.css");
+@import "partials/settings";
+ 
+/* =Theme customization starts here */
+.lined.lined-short {
+	margin-bottom: 0px;
+}
+header {
+	.navbar-inverse .brand {
+		padding-bottom: 0px;
+	}
+	.navbar .brand.retina > img {
+		height: 110px;
+		margin-top: -11px;
+		margin-bottom:-20px;
+		background-color: $harmon-darkred;
+		border-radius: 8px;
+		padding-right: 4px;
+		padding-left: 1px;
+		padding-top: 5px;
+	}
+	.navbar.attached .brand.retina > img {
+		margin-top: -5px;
+	}
+	.navbar > .container {
+		border: 1px solid $border-ltgray;
+	}
+	
+}
+.social-icons {
+	a { // only have one social icon right now, so this will work.
+		line-height: 40px;
+		height: 40px;
+		width: 40px;
+		background-color: $facebook-blue;
+		i.fa-facebook {
+			color: white;
+			font-size: 20px;
+		}
+	}
+
+}
+.jumbotron {
+	.carousel-indicators { // hide buttons on slider
+		display: none;
+	}
+	.opening-time {
+		border: 1px solid $border-ltgray;
+	}
+	
+}
+.harmons-button-list {
+	margin-left: 0px;
+	li {
+		display: inline-block;
+		list-style: none;
+		padding-right: 10px;
+	}
+}
+/* contact form 7 */
+span.wpcf7-list-item {
+	display: table-row;
+}
+span.wpcf7-list-item * {
+	display: table-cell;
+}
+.foot {
+	background: url(../carpress/assets/images/pattern-5.png);
+}
+.carousel .quote .author .person {
+	line-height: 30px;
+}
+/* archived services (taxonomy-service_category) */
+.service-wrap {
+	padding-bottom: 26px;
+	.service-title-wrap {
+		height: 65px;
+		.service-icon {
+			float: left;
+			padding-right: 10px;
+			padding-bottom: 5px;
+		}
+		.service-title {
+		}
+	}
+	.service-excerpt-wrap {
+		min-height: 10px;
+	}
+}
+
+
+.left.sidebar { // left sidebar
+	.harmons-AAA-widget-logo {
+		margin-bottom: 0px;
+		margin-top: -60px;
+		.textwidget img {
+			margin-bottom: 0px;
+		}
+	}
+	.widget_home_testimonials {
+		blockquote {
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 30px;
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+}
+iframe {
+	border: 0px;
+}
+@import "partials/media"; // keep at end of of file 

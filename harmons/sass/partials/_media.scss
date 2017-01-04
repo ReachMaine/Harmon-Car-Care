@@ -1,0 +1,49 @@
+/* ----  Media Settings --------------------------------- */
+@media (max-width: 979px) { // break for nav button
+	header {
+		.navbar .brand.retina {
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+		.navbar .brand.retina > img {
+			margin-top: 0px;
+			margin-bottom:0px;
+		}
+		.nav-collapse {
+			#menu-harmons-main-menu { // ul.nav
+				background-color: $harmon-darkred;
+				padding-left: 10px;
+				li:hover,
+				.li.dropdown:hover > .dropdown-toggle,
+				li > a:hover {
+					color: #FFFFFF;
+				}
+
+			}
+		}
+	}
+	
+}
+@media (max-width: 776px) { // break 
+	.hide-mobile {
+		display: none;
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+		padding: 0px;
+		margin:0px;
+	}
+}
+@media (min-width: 481px) {
+	.jumbotron {
+		.bottom-widgets .widget {
+			width: 25%;
+		}
+	}
+}
+@media (max-width: 416px) { // break 
+	.title-area h1 {
+		//color: #727272;
+	}
+}
+/* end Media Settings ------------------------------------------ */
